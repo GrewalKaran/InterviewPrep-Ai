@@ -8,8 +8,8 @@ const cors = require('cors')
 const app = express()
 app.use(cors({
   origin: [
-    "http://localhost:5173",
-    "https://your-frontend-domain.com"
+    "https://interview-prep-ai-olive.vercel.app/login",
+    "http://localhost:5173"
   ],
   credentials: true
 }));
