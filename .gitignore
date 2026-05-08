@@ -2,7 +2,7 @@
 # ENV FILES
 # =========================
 .env
-
+Backend/.env
 
 # =========================
 # NODE MODULES
