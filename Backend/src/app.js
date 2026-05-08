@@ -8,7 +8,7 @@ const cors = require('cors')
 const app = express()
 app.use(cors({
   origin: [
-    "https://interview-prep-ai-olive.vercel.app/login",
+    "https://interviewprep-ai-4hh0.onrender.com",
     "http://localhost:5173"
   ],
   credentials: true
