@@ -55,7 +55,16 @@ async function generateInterviewReport({ resume, selfDescription, jobDescription
 
 
 async function generatePdfFromHtml(htmlContent) {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({
+        args: [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-dev-shm-usage", // Essential for small RAM instances
+            "--single-process"         // Helps keep memory low on Free tier
+        ],
+        // Use the path from our Env Var, or null for local development
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null, 
+    });
     const page = await browser.newPage();
     await page.setContent(htmlContent, { waitUntil: "networkidle0" })
 
