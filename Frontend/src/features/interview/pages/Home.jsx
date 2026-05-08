@@ -35,7 +35,7 @@ const Home = () => {
         if(loading){
             return (
               <main className="loading-screen">
-                <h1>Loading your interview plan...</h1>
+                <h1>Loading</h1>
               </main>
             );
         }
