@@ -8,6 +8,7 @@ const cors = require('cors')
 const app = express()
 app.use(cors({
   origin: [
+    "https://interview-prep-b0tudx849-grewalkarans-projects.vercel.app",
     "https://interview-prep-ai-olive.vercel.app",
     "http://localhost:5173"
   ],
