@@ -180,6 +180,46 @@ INTERVIEW-PREP AI/
 | **SCSS (Sass)** | Modular, maintainable, clean styles |
  
 ---
+
+### Deployment — 🚀What makes it running
+
+| Platform              | Purpose          | Notes                                                       |
+| --------------------- | ---------------- | ----------------------------------------------------------- |
+| **Vercel**            | Frontend hosting | Fast global CDN deployment for the React + Vite frontend    |
+| **Render.com**        | Backend hosting  | Hosts the Express API + Puppeteer PDF generation service    |
+| **MongoDB Atlas**     | Cloud database   | Stores users, interview reports, and generated content      |
+| **Google Gemini API** | AI engine        | Generates interview questions, analysis, and resume content |
+
+---
+
+### Deployment Backend Notes — ⚙️
+
+The backend is containerized using Docker to properly support:
+
+Puppeteer + Chromium
+PDF generation
+Headless browser execution on cloud infrastructure
+
+Render runs the backend inside a Docker container with Chromium installed manually for reliable Puppeteer support.
+
+Free Tier Tradeoff ⚠️
+
+This project currently uses the free plan of Render.com.
+
+Because of that:
+
+Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.
+
+This means:
+
+First request after inactivity may feel slow
+PDF generation endpoints can take longer to respond initially
+Subsequent requests become fast again once the server wakes up
+
+This tradeoff keeps deployment completely free while still supporting full backend + Puppeteer functionality.
+ 
+---
+
  
 ## 🚀 Get It Running
  
