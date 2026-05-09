@@ -1,30 +1,30 @@
 <div align="center">
 <pre><font color="#00E5FF">
-██████╗ ███████╗███████╗██╗ ██╗███╗ ███╗███████╗
-██╔══██╗██╔════╝██╔════╝██║ ██║████╗ ████║██╔════╝
-██████╔╝█████╗ ███████╗██║ ██║██╔████╔██║█████╗ 
-██╔══██╗██╔══╝ ╚════██║██║ ██║██║╚██╔╝██║██╔══╝ 
-██║ ██║███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗
-╚═╝ ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚═╝ ╚═╝╚══════╝
- ██████╗ ███████╗███╗ ██╗ █████╗ ██╗
- ██╔════╝ ██╔════╝████╗ ██║██╔══██╗██║
- ██║ ███╗█████╗ ██╔██╗ ██║███████║██║
- ██║ ██║██╔══╝ ██║╚██╗██║██╔══██║██║
- ╚██████╔╝███████╗██║ ╚████║██║ ██║██║
- ╚═════╝ ╚══════╝╚═╝ ╚═══╝╚═╝ ╚═╝╚═╝
+<div align="center">
+<pre><font color="#00E5FF">
+██╗███╗   ██╗████████╗███████╗██████╗ ██╗   ██╗██╗███████╗██╗    ██╗
+██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██║   ██║██║██╔════╝██║    ██║
+██║██╔██╗ ██║   ██║   █████╗  ██████╔╝██║   ██║██║█████╗  ██║ █╗ ██║
+██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗╚██╗ ██╔╝██║██╔══╝  ██║███╗██║
+██║██║ ╚████║   ██║   ███████╗██║  ██║ ╚████╔╝ ██║███████╗╚███╔███╔╝
+╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚═╝╚══════╝ ╚══╝╚══╝
+
+██████╗ ██████╗ ███████╗██████╗      █████╗ ██╗
+██╔══██╗██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██║
+██████╔╝██████╔╝█████╗  ██████╔╝    ███████║██║
+██╔═══╝ ██╔══██╗██╔══╝  ██╔═══╝     ██╔══██║██║
+██║     ██║  ██║███████╗██║         ██║  ██║██║
+╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝         ╚═╝  ╚═╝╚═╝
 </font></pre>
- 
-# 🚀 Resume-GenAI
- 
-### *Your boring resume? Gone. Your dream job? Loading...*
- 
-> **Upload resume → AI magic happens → Download a banger → Get hired** 🎯
+### *Upload your resume → Generate AI interview reports → Build a job-winning resume*
+
+> **AI-powered resume optimization + interview preparation platform** 🎯
  
 <br/> [![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) [![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/) [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) [![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/) [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![Google Gemini](https://img.shields.io/badge/Google_Gemini-AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/) [![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/) [![bcrypt](https://img.shields.io/badge/bcrypt-Password_Hashing-FF6B6B?style=for-the-badge)](https://www.npmjs.com/package/bcrypt) [![Puppeteer](https://img.shields.io/badge/Puppeteer-PDF_Export-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)](https://pptr.dev/) [![Multer](https://img.shields.io/badge/Multer-File_Uploads-FFB020?style=for-the-badge)](https://www.npmjs.com/package/multer) [![SCSS](https://img.shields.io/badge/SCSS-Styling-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/) <br/>
 ---
  
 ```
- ✨ "Your resume is your first impression — let's make it unforgettable." ✨
+ ✨ "Become ready for the job you aspire." ✨
 ```
  
 ---
@@ -32,26 +32,21 @@
 </div>
 ## 🎬 What's the vibe?
  
-Ever spent 3 hours tweaking your resume font size by 0.5pt? Yeah, **never again.**
- 
-**Resume-GenAI** does the heavy lifting:
-- 📤 You upload your old (probably mediocre) resume PDF
-- 🧠 Google Gemini AI reads it, understands it, and rewrites it like a pro
-- 🎨 It gets rendered into gorgeous, structured HTML
-- 🖨️ Puppeteer converts it into a **pixel-perfect downloadable PDF**
+**INTERVIEW-PREP AI** does the heavy lifting:
+- 📤 You upload your old (probably mediocre), a target Job Description, and a self-description.
+- 🧠 Google Gemini AI doesn't just "rewrite"; it analyzes the gaps between your experience and the job requirements.
+- 🎨 the AI generates a structured report including a match score, skill-gaps, technical & behavioral questions + a custom preparation plan.
+- 🖨️ GenAI starts working again the moment you click "Download AI Tailored Resume" and uses Puppeteer to give you a **pixel-perfect downloadable PDF**
 - 💼 You send it out and wait for the interviews to roll in
-Oh, and there's a whole **AI-powered Interview Report** generator too. Because getting the interview is only half the battle. 😤
  
 ---
  
 ## 📸 See it in action
  
-<img width="1218" height="1060" alt="Image" src="https://github.com/user-attachments/assets/3b88b8f5-ca53-4b32-9dd9-cfe31585736a" />
-<img width="1862" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ef36cda6-83f1-49a7-a40c-8566777ed227" />
-<img width="1884" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0b0139af-bc5e-4034-a0ca-2284860ec966" />
-<img width="1844" height="1079" alt="Image" src="https://github.com/user-attachments/assets/f6d225f1-cdaa-40c4-a7eb-4311c289a2be" />
-<img width="1847" height="1080" alt="Image" src="https://github.com/user-attachments/assets/04f9b76b-af9a-4efd-8ccd-79d57040a880" />
-<img width="1870" height="1078" alt="Image" src="https://github.com/user-attachments/assets/e389586a-11b0-4ef0-b0c7-99a6a77b1e41" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/83d3b84e-161a-40a9-85dc-b2b4a65606f9" />
+<img width="1919" height="1077" alt="Image" src="https://github.com/user-attachments/assets/eeb94d3f-9622-4dd0-9cef-4984459724a8" />
+<img width="1919" height="836" alt="Image" src="https://github.com/user-attachments/assets/f9375357-20fd-4b60-a9dc-e2c0f3233788" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/cef1083b-d4f2-4b81-a6be-0dfa7b49c1be" />
 ---
  
 ## ✨ Features — the good stuff
@@ -93,7 +88,7 @@ Oh, and there's a whole **AI-powered Interview Report** generator too. Because g
 > *"A place for everything, and everything in its place."* — Some organized developer, probably
  
 ```
-RESUME-GENAI/
+INTERVIEW-PREP AI/
 │
 ├── 🖥️ Backend/
 │ ├── src/
@@ -198,8 +193,7 @@ RESUME-GENAI/
 ### Step 1 — Clone it 🐑
  
 ```bash
-git clone https://github.com/KaranGrewal/resumeGenerator-genai.git
-cd resumeGenerator-genai
+https://github.com/GrewalKaran/InterviewPrep-Ai.git
 ```
  
 ---
@@ -219,7 +213,7 @@ PORT=5000
 NODE_ENV=development
  
 # 🍃 Database
-MONGO_URI=mongodb://localhost:27017/resume-genai
+MONGO_URI=mongodb://localhost:27017/INTERVIEW-PREP AI
  
 # 🔑 JWT Secrets (make these long and random!)
 JWT_ACCESS_SECRET=your_strong_access_secret_here
